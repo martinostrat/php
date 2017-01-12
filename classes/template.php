@@ -16,6 +16,11 @@ class template
     var $file = ''; // template file name
     var $content = false; // template content - is now empty
 
+    function __construct($f) {
+        $this->file = $f;
+        $this->loadFile();
+    }
+
     function loadFile() {
         $f = $this->file;
 
