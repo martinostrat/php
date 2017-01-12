@@ -9,6 +9,11 @@
 class text
 {
     var $str = '';
+
+    function __construct($s = '') {
+        $this->setText($s);
+    }
+
     function setText($s) {
         $this->str = $s;
     }
@@ -17,4 +22,3 @@ class text
         echo $this->str.'<br/>';
     }
 }
-//
