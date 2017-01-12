@@ -16,4 +16,15 @@ echo '</pre>';
 
 $sentence1->show();
 echo '<hr/>';
+
+
+$sentence2 = new text('Tere koos konstruktoriga');
+
+echo '<pre>';
+print_r($sentence2);
+echo '</pre>';
+
+$sentence2->show();
+echo '<hr/>';
+
 ?>
