@@ -1,6 +1,7 @@
 <?php
 
 require_once 'text.php';
+require_once 'ctext.php';
 
 $sentence1 = new text();
 
@@ -25,6 +26,28 @@ print_r($sentence2);
 echo '</pre>';
 
 $sentence2->show();
+echo '<hr/>';
+
+
+$sentence3 = new ctext('musta värvi tekst');
+
+echo '<pre>';
+print_r($sentence3);
+echo '</pre>';
+
+$sentence3->show();
+echo '<hr/>';
+
+
+$sentence4 = new ctext('punast värvi tekst');
+
+$sentence4->setColor('#FF0000');
+
+echo '<pre>';
+print_r($sentence4);
+echo '</pre>';
+
+$sentence4->show();
 echo '<hr/>';
 
 ?>

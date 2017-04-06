@@ -1,0 +1,14 @@
+table{
+    width: 90%;
+    height: 100px;
+    margin: auto;
+}
+
+.nav_bar {
+    background-color: aquamarine;
+}
+
+.menu {
+    background-color: lightgray;
+    height:200px;
+}

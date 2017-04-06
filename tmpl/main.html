@@ -1,38 +1,48 @@
+<!--<!doctype html>
+<html>
+<head>
+	<title>{header}</title>
+	&lt;!&ndash;<meta charset="utf-8"/>&ndash;&gt;
+	<link rel="stylesheet" type="text/css" href="{style}"/>
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		{header}
+	</div>
+	<div id="navigatsion">
+		<ul class="nav_menu">
+			<li>{nav_bar}</li>
+			<li>{lang_bar}</li>
+		</ul>
+	</div>
+	<div id="menu">{menu}</div>
+	<div id="content">{content}</div>
+	<div id="clear"></div>
+	<div id="footer">
+		&copy; Tartu Kutsehariduskeskus 2017
+	</div>
+</div>
+</body>
+</html>-->
+
 <!DOCTYPE html>
+<!-- /tmpl/main.html - main template of page-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-
-    <style>
-        table {
-            width: 90%;
-            height: 100px;
-            margin: auto;
-        }
-    </style>
+    <title>{header}</title>
 </head>
 <body>
-<table border="1">
+<table width="90%" border="1">
     <tr>
-        <td rowspan="2" width="30%">
-            {menu}
-        </td>
-        <td>
-            {nav_bar}
-        </td>
-        <td>
-            {lang_bar}
-        </td>
+        <td rowspan="2" width="30%">{menu}</td>
+        <td>{nav_bar}</td>
+        <td>{lang_bar}</td>
     </tr>
-
     <tr>
-        <td colspan="2">
-            {content}
-        </td>
+        <td colspan="2">{content}</td>
     </tr>
 </table>
 </body>
 </html>
-
-

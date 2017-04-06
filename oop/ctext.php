@@ -20,5 +20,13 @@ class ctext extends text {
         $this->color = $c;
     }
 
+    // show object
+    function show() {
+        if ($this->color === false){
+            parent::show();
+        } else {
+            echo '<font color="'.$this->color.'">'.$this->str.'</font>';
+        }
+    }
 
 }

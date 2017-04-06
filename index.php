@@ -1,27 +1,30 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: martinostrat
- * Date: 1/12/17
- * Time: 12:59 PM
- */
 
-define('CLASSES_DIR', 'classes/');
-define('TMPL_DIR', 'tmpl/');
-require_once CLASSES_DIR.'template.php';
+require_once 'conf.php';
+require_once 'act.php';
 
-// Load template file content
 $tmpl = new template('main');
+$tmpl->set('header', 'minu lehe pealkiri');
+$tmpl->set('style', STYLE_DIR.'main'.'.css');
 
-// Add pairs of template element names and real values
-$tmpl->set('menu', 'my menu');
-$tmpl->set('nav_bar', 'my nav');
-$tmpl->set('lang_bar', 'my lang bar');
-$tmpl->set('content', 'my content');
+require_once 'menu.php';
+
+$tmpl-> set('nav_bar', 'minu nav');
+$tmpl->set('lang_bar', 'minu keeleriba');
+
+$tmpl->set('content', $http->get('content'));
+
+echo $tmpl->parse();
+
+$sql = 'SELECT NOW()';
+$res = $db->getArray($sql);
+$sql = 'SELECT NOW()';
+$res = $db->getArray($sql);
+$sql = 'SELECT NOW()';
+$res = $db->getArray($sql);
+
+$db-> showHistory();
 
 echo '<pre>';
-print_r($tmpl);
+print_r($sess);
 echo '</pre>';
-
-
-

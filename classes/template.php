@@ -44,6 +44,11 @@ class template
             $this->readFile($f);
         }
 
+        $f = TMPL_DIR.str_replace('.', '/', $this->file).'.html';
+        if (file_exists($f) and is_file($f) and is_readable($f)) {
+            $this->readFile($f);
+        }
+
         if ($this->content === false) {
             echo 'Ei saanud lugeda faili '.$this->file.'<br/>';
             exit;
@@ -52,7 +57,7 @@ class template
 
     function readFile($f) {
         $this->content = file_get_contents($f);
-    } // readFile
+    }
 
     // set up html template elements and their real values
     // $name - template element name
@@ -61,7 +66,24 @@ class template
         $this->vars[$name] = $val;
     }
 
+    // assign values to element
+    function add($name, $val) {
+        if (!isset($this->vars[$name])) {
+            $this->set($name, $val);
+        } else {
+            $this->vars[$name] = $this->vars[$name].$val;
+        }
+    }
 
+    function parse() {
+        $str = $this->content;
+
+        foreach ($this->vars as $name=>$val) {
+           $str = str_replace('{'.$name.'}', $val, $str);
+        }
+        // return template content with real values
+        return $str;
+    } // parse
 
 
 }

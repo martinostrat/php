@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="PHP Runtime" type="php">
+        <CLASSES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </CLASSES>
+        <SOURCES>
+          <root url="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/stubs/standard" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module" module-name="js" />
+    <orderEntry type="module" module-name="jsframe" />
+    <orderEntry type="module" module-name="AB" />
+    <orderEntry type="module" module-name="htdocs" />
+    <orderEntry type="module" module-name="behat" />
+    <orderEntry type="module" module-name="behat" />
+    <orderEntry type="module" module-name="behat" />
+    <orderEntry type="module" module-name="behat" />
+    <orderEntry type="module" module-name="features" />
+    <orderEntry type="module" module-name="behat" />
+    <orderEntry type="module" module-name="vendor" />
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/behat" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/gherkin" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-browserkit-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-extension" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-goutte-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-selenium2-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/transliterator" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/fabpot/goutte" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/instaclick/php-webdriver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/browser-kit" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/class-loader" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/dom-crawler" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/yaml" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/behat" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/gherkin" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-browserkit-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-extension" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-goutte-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/mink-selenium2-driver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/behat/transliterator" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/composer" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/container-interop/container-interop" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/fabpot/goutte" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/guzzle" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/promises" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/guzzlehttp/psr7" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/instaclick/php-webdriver" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/container" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/http-message" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/psr/log" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/browser-kit" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/class-loader" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/config" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/console" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/css-selector" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/debug" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/dependency-injection" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/dom-crawler" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/event-dispatcher" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/filesystem" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/polyfill-mbstring" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/translation" />
+          <root url="file://$MODULE_DIR$/../../AT/vendor/symfony/yaml" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHARS">
+        <CLASSES>
+          <root url="phar://$MODULE_DIR$/../../AT/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+        </CLASSES>
+        <SOURCES>
+          <root url="phar://$MODULE_DIR$/../../AT/vendor/symfony/dependency-injection/Tests/Fixtures/includes/ProjectWithXsdExtensionInPhar.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
